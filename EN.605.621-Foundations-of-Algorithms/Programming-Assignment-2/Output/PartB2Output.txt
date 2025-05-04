@@ -1,0 +1,1573 @@
+Running Part B2...
+
+Input Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+
+---------------------------------------------------------
+Current State: Q0
+Current Index: 0
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+                _
+Updating Turing Machine...
+- Writing '1' To Index 0
+- Moving Read-Write Head Right
+- Moving State To Q0
+---------------------------------------------------------
+Current State: Q0
+Current Index: 1
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+                     _
+Updating Turing Machine...
+- Writing '0' To Index 1
+- Moving Read-Write Head Right
+- Moving State To Q0
+---------------------------------------------------------
+Current State: Q0
+Current Index: 2
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+                          _
+Updating Turing Machine...
+- Writing '1' To Index 2
+- Moving Read-Write Head Right
+- Moving State To Q0
+---------------------------------------------------------
+Current State: Q0
+Current Index: 3
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+                               _
+Updating Turing Machine...
+- Writing '1' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q0
+---------------------------------------------------------
+Current State: Q0
+Current Index: 4
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+                                         _
+Updating Turing Machine...
+- Writing '1' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 9
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 8
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 7
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 6
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 5
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '1' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 4
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 3
+Current Tape: ['1', '0', '1', '1', 'b', '1', '0', '0', '0', 'b']
+                               _
+Updating Turing Machine...
+- Writing '0' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 4
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '1' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 7
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 6
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 5
+Current Tape: ['1', '0', '1', '0', 'b', '1', '0', '0', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 6
+Current Tape: ['1', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '1' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 7
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 8
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '1', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 9
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '1', '1', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 8
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '1', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 7
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '1', '1', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 6
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '1', '1', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '1' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 5
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '1', '1', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 4
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '1', '1', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 3
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '1', '1', 'b']
+                               _
+Updating Turing Machine...
+- Writing '0' To Index 3
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 2
+Current Tape: ['1', '0', '1', '0', 'b', '0', '1', '1', '1', 'b']
+                          _
+Updating Turing Machine...
+- Writing '0' To Index 2
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 3
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '1', '1', 'b']
+                               _
+Updating Turing Machine...
+- Writing '1' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 4
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '1', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '1', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '1', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '1' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '1', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '1', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 9
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 8
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 7
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 6
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '1' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 5
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 4
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 3
+Current Tape: ['1', '0', '0', '1', 'b', '0', '1', '1', '0', 'b']
+                               _
+Updating Turing Machine...
+- Writing '0' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 4
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '1', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '1', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '1', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '1' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '1', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '1', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '1', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '1', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 7
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '1', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 8
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 9
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 8
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 7
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 6
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '1' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 5
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 4
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 3
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                               _
+Updating Turing Machine...
+- Writing '0' To Index 3
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 2
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                          _
+Updating Turing Machine...
+- Writing '0' To Index 2
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 1
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                     _
+Updating Turing Machine...
+- Writing '0' To Index 1
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 0
+Current Tape: ['1', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                _
+Updating Turing Machine...
+- Writing '0' To Index 0
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 1
+Current Tape: ['0', '0', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                     _
+Updating Turing Machine...
+- Writing '1' To Index 1
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 2
+Current Tape: ['0', '1', '0', '0', 'b', '0', '1', '0', '1', 'b']
+                          _
+Updating Turing Machine...
+- Writing '1' To Index 2
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 3
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '1', 'b']
+                               _
+Updating Turing Machine...
+- Writing '1' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 4
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '1', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '1', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '1', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '1' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '1', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '1', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 9
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 8
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 7
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 6
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '1' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 5
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 4
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 3
+Current Tape: ['0', '1', '1', '1', 'b', '0', '1', '0', '0', 'b']
+                               _
+Updating Turing Machine...
+- Writing '0' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 4
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '1' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 7
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 6
+Current Tape: ['0', '1', '1', '0', 'b', '0', '1', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 7
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 8
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '1', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 9
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '1', '1', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 8
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '1', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 7
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '1', '1', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 6
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '1', '1', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 5
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '1', '1', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 4
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '1', '1', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 3
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '1', '1', 'b']
+                               _
+Updating Turing Machine...
+- Writing '0' To Index 3
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 2
+Current Tape: ['0', '1', '1', '0', 'b', '0', '0', '1', '1', 'b']
+                          _
+Updating Turing Machine...
+- Writing '0' To Index 2
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 3
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '1', '1', 'b']
+                               _
+Updating Turing Machine...
+- Writing '1' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 4
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '1', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '1', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '1', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '1', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '1', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 9
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 8
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 7
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 6
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 5
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 4
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 3
+Current Tape: ['0', '1', '0', '1', 'b', '0', '0', '1', '0', 'b']
+                               _
+Updating Turing Machine...
+- Writing '0' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 4
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '1', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '1', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '1', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '1', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '1' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '1', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '1', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '1', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 7
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '1', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 8
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 9
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 8
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 7
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 6
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 5
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 4
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 3
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                               _
+Updating Turing Machine...
+- Writing '0' To Index 3
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 2
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                          _
+Updating Turing Machine...
+- Writing '0' To Index 2
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 1
+Current Tape: ['0', '1', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                     _
+Updating Turing Machine...
+- Writing '0' To Index 1
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 2
+Current Tape: ['0', '0', '0', '0', 'b', '0', '0', '0', '1', 'b']
+                          _
+Updating Turing Machine...
+- Writing '1' To Index 2
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 3
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '1', 'b']
+                               _
+Updating Turing Machine...
+- Writing '1' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 4
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '1', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '1', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '1', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '1', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '1' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '1', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '1', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 9
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 8
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 7
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 6
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 5
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q4
+---------------------------------------------------------
+Current State: Q4
+Current Index: 4
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q5
+---------------------------------------------------------
+Current State: Q5
+Current Index: 3
+Current Tape: ['0', '0', '1', '1', 'b', '0', '0', '0', '0', 'b']
+                               _
+Updating Turing Machine...
+- Writing '0' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q6
+---------------------------------------------------------
+Current State: Q6
+Current Index: 4
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 5
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 6
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 7
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 8
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 9
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 8
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing '0' To Index 8
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 7
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing '0' To Index 7
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 6
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing '0' To Index 6
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 5
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing '0' To Index 5
+- Moving Read-Write Head Left
+- Moving State To Q2
+---------------------------------------------------------
+Current State: Q2
+Current Index: 4
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Right
+- Moving State To Q8
+---------------------------------------------------------
+Current State: Q8
+Current Index: 5
+Current Tape: ['0', '0', '1', '0', 'b', '0', '0', '0', '0', 'b']
+                                         _
+Updating Turing Machine...
+- Writing 'b' To Index 5
+- Moving Read-Write Head Right
+- Moving State To Q8
+---------------------------------------------------------
+Current State: Q8
+Current Index: 6
+Current Tape: ['0', '0', '1', '0', 'b', 'b', '0', '0', '0', 'b']
+                                              _
+Updating Turing Machine...
+- Writing 'b' To Index 6
+- Moving Read-Write Head Right
+- Moving State To Q8
+---------------------------------------------------------
+Current State: Q8
+Current Index: 7
+Current Tape: ['0', '0', '1', '0', 'b', 'b', 'b', '0', '0', 'b']
+                                                   _
+Updating Turing Machine...
+- Writing 'b' To Index 7
+- Moving Read-Write Head Right
+- Moving State To Q8
+---------------------------------------------------------
+Current State: Q8
+Current Index: 8
+Current Tape: ['0', '0', '1', '0', 'b', 'b', 'b', 'b', '0', 'b']
+                                                        _
+Updating Turing Machine...
+- Writing 'b' To Index 8
+- Moving Read-Write Head Right
+- Moving State To Q8
+---------------------------------------------------------
+Current State: Q8
+Current Index: 9
+Current Tape: ['0', '0', '1', '0', 'b', 'b', 'b', 'b', 'b', 'b']
+                                                             _
+Updating Turing Machine...
+- Writing 'b' To Index 9
+- Moving State To QY
+---------------------------------------------------------
+
+Turing Machine Halted...
+Final Tape: ['0', '0', '1', '0']

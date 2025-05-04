@@ -1,0 +1,150 @@
+#############
+# Trace Run #
+#############
+
+Conducting Trace Run For CalculateManhattanDistance Method
+
+Testing P1 > P2
+- P1(13, 23) : P2(0, 0)
+- Distance = 36
+
+Testing P1 < P2
+- P1(-3, -9) : P2(0, 0)
+- Distance = 12
+
+Testing P1 = P2
+- P1(5, 5) : P2(5, 5)
+- Distance = 0
+
+#############
+# Trace Run #
+#############
+
+Conducting Trace Run For CalculateClosestPoints Method
+
+Input List:
+- P[0] : (0, 0)
+- P[1] : (1, 1)
+- P[2] : (2, 2)
+- P[3] : (3, 3)
+- P[4] : (4, 4)
+
+Current P[i]: P[0] : (0, 0)
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[1] : (1, 1)
+- Manhattan Distance : 2
+
+- Result: List Empty : Append
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[2] : (2, 2)
+- Manhattan Distance : 4
+
+- Result: Current Manhattan Distance Larger Than Any In Sorted Array : List Is Not Full : Append
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(0, 0) : P2(2, 2) : 4
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[3] : (3, 3)
+- Manhattan Distance : 6
+- Result: Current Manhattan Distance Larger Than Any In Sorted Array : List Is Not Full : Append
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(0, 0) : P2(2, 2) : 4
+- P[2] : P1(0, 0) : P2(3, 3) : 6
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[4] : (4, 4)
+- Manhattan Distance : 8
+
+- Result: Current Manhattan Distance Larger Than Any In Sorted Array: List Is Full : Do Nothing
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(0, 0) : P2(2, 2) : 4
+- P[2] : P1(0, 0) : P2(3, 3) : 6
+------------------------------------------------------------------------------------------------------------------------
+
+Current P[i]: P[1] : (1, 1)
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[2] : (2, 2)
+- Manhattan Distance : 2
+
+- Result: Current Manhattan Distance < Some Point In Closest Points : Insert Into Sorted Points
+- Insert Caused List Overflow : Pop Last Index
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(1, 1) : P2(2, 2) : 2
+- P[2] : P1(0, 0) : P2(2, 2) : 4
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[3] : (3, 3)
+- Manhattan Distance : 4
+
+- Result: Current Manhattan Distance Larger Than Any In Sorted Array: List Is Full : Do Nothing
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(1, 1) : P2(2, 2) : 2
+- P[2] : P1(0, 0) : P2(2, 2) : 4
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[4] : (4, 4)
+- Manhattan Distance : 6
+
+- Result: Current Manhattan Distance Larger Than Any In Sorted Array: List Is Full : Do Nothing
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(1, 1) : P2(2, 2) : 2
+- P[2] : P1(0, 0) : P2(2, 2) : 4
+------------------------------------------------------------------------------------------------------------------------
+
+Current P[i]: P[2] : (2, 2)
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[3] : (3, 3)
+- Manhattan Distance : 2
+
+- Result: Current Manhattan Distance < Some Point In Closest Points : Insert Into Sorted Points
+- Insert Caused List Overflow : Pop Last Index
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(1, 1) : P2(2, 2) : 2
+- P[2] : P1(2, 2) : P2(3, 3) : 2
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[4] : (4, 4)
+- Manhattan Distance : 4
+
+- Result: Current Manhattan Distance Larger Than Any In Sorted Array: List Is Full : Do Nothing
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(1, 1) : P2(2, 2) : 2
+- P[2] : P1(2, 2) : P2(3, 3) : 2
+------------------------------------------------------------------------------------------------------------------------
+
+Current P[i]: P[3] : (3, 3)
+------------------------------------------------------------------------------------------------------------------------
+- Current P[j]: P[4] : (4, 4)
+- Manhattan Distance : 2
+
+- Result: Current Manhattan Distance Larger Than Any In Sorted Array: List Is Full : Do Nothing
+
+- List After Iteration:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(1, 1) : P2(2, 2) : 2
+- P[2] : P1(2, 2) : P2(3, 3) : 2
+------------------------------------------------------------------------------------------------------------------------
+
+Current P[i]: P[4] : (4, 4)
+------------------------------------------------------------------------------------------------------------------------
+
+CalculateClosestPoints Method Completed
+
+Output List:
+- P[0] : P1(0, 0) : P2(1, 1) : 2
+- P[1] : P1(1, 1) : P2(2, 2) : 2
+- P[2] : P1(2, 2) : P2(3, 3) : 2

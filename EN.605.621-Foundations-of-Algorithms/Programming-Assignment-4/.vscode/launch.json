@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+
+            //"program": "${file}",
+            "program": "Python\\Main.py",
+
+            //"console": "externalTerminal",
+            "console":"internalConsole",
+            
+            "args": ["S1", "100010101", "101", "0"]
+
+            //"args": ["S2", "101010101010101", "101", "010"]
+
+            //"args": ["S3", "001100110101011001100110010101111", "101", "010"]
+
+            //"args": ["S4", "100110011001", "101", "010"]
+
+
+
+        }
+    ]
+}

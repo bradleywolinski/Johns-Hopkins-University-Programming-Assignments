@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-toolsai.jupyter-renderers",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "james-yu.latex-workshop",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}

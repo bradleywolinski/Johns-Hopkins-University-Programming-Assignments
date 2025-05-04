@@ -1,0 +1,34 @@
+############
+# Test Run #
+############
+
+Conducting Test Runs For CalculateClosestPoints Method
+Conducting Test Run: n = 10
+- Generating Random Points...
+- Running CalculateClosestPoints Method On Array P (m = 45)...
+- Resulting Key Action Count: 678
+- Ensuring Key Action Does Not Exceed Worst-Case Running Time: True
+
+Conducting Test Run: n = 25
+- Generating Random Points...
+- Running CalculateClosestPoints Method On Array P (m = 300)...
+- Resulting Key Action Count: 24294
+- Ensuring Key Action Does Not Exceed Worst-Case Running Time: True
+
+Conducting Test Run: n = 50
+- Generating Random Points...
+- Running CalculateClosestPoints Method On Array P (m = 1225)...
+- Resulting Key Action Count: 352866
+- Ensuring Key Action Does Not Exceed Worst-Case Running Time: True
+
+Conducting Test Run: n = 100
+- Generating Random Points...
+- Running CalculateClosestPoints Method On Array P (m = 4950)...
+- Resulting Key Action Count: 6054713
+- Ensuring Key Action Does Not Exceed Worst-Case Running Time: True
+
+Conducting Test Run: n = 250
+- Generating Random Points...
+- Running CalculateClosestPoints Method On Array P (m = 31125)...
+- Resulting Key Action Count: 242290973
+- Ensuring Key Action Does Not Exceed Worst-Case Running Time: True

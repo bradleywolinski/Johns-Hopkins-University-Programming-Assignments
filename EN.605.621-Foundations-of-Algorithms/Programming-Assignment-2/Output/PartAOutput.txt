@@ -1,0 +1,71 @@
+Running Part A...
+
+Input Tape: ['1', '0', '0', '1']
+
+---------------------------------------------------------
+Current State: Q0
+Current Index: 0
+Current Tape: ['1', '0', '0', '1']
+                _
+Updating Turing Machine...
+- Writing '1' To Index 0
+- Moving Read-Write Head Right
+- Moving State To Q0
+---------------------------------------------------------
+Current State: Q0
+Current Index: 1
+Current Tape: ['1', '0', '0', '1']
+                     _
+Updating Turing Machine...
+- Writing '0' To Index 1
+- Moving Read-Write Head Right
+- Moving State To Q0
+---------------------------------------------------------
+Current State: Q0
+Current Index: 2
+Current Tape: ['1', '0', '0', '1']
+                          _
+Updating Turing Machine...
+- Writing '0' To Index 2
+- Moving Read-Write Head Right
+- Moving State To Q0
+---------------------------------------------------------
+Current State: Q0
+Current Index: 3
+Current Tape: ['1', '0', '0', '1']
+                               _
+Updating Turing Machine...
+- Writing '1' To Index 3
+- Moving Read-Write Head Right
+- Moving State To Q0
+---------------------------------------------------------
+Current State: Q0
+Current Index: 4
+Current Tape: ['1', '0', '0', '1', 'b']
+                                    _
+Updating Turing Machine...
+- Writing 'b' To Index 4
+- Moving Read-Write Head Left
+- Moving State To Q1
+---------------------------------------------------------
+Current State: Q1
+Current Index: 3
+Current Tape: ['1', '0', '0', '1', 'b']
+                               _
+Updating Turing Machine...
+- Writing 'b' To Index 3
+- Moving Read-Write Head Left
+- Moving State To Q3
+---------------------------------------------------------
+Current State: Q3
+Current Index: 2
+Current Tape: ['1', '0', '0', 'b', 'b']
+                          _
+Updating Turing Machine...
+- Writing 'b' To Index 2
+- Moving Read-Write Head Left
+- Moving State To QN
+---------------------------------------------------------
+
+Turing Machine Halted...
+Final Tape: ['1', '0']
